@@ -37,6 +37,10 @@ app.get("/api/jokes", (req, res) => {
   res.send(jokes);
 });
 
+app.get("/api/priya",(req, res)=>{
+  res.send("hello")
+})
+
 const port = process.env.PORT_URL || 3000;
 //agr env file hai toh port vha se chlega otherwise 3000
 //pr chlega
